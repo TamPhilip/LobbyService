@@ -20,15 +20,5 @@ services:
       - WAIT_HOSTS_TIMEOUT=300
       - WAIT_SLEEP_INTERVAL=5
       - WAIT_HOST_CONNECT_TIMEOUT=5
-# REMOVE THIS LINE! UPDATE CONFIGURATION FOR GAME SERVICE HERE.
-  foo:
-    build:
-      context: .
-      dockerfile: ../path/to/gameservice/dockerfile
-    ports:
-      - "4244:4244"
-    depends_on:
-      - restapi
-    command: sh -c "launch command for your service binary here"
 version: '3.8'
 
