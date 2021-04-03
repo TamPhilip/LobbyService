@@ -1,3 +1,0 @@
-[submodule "src/main/resources/static"]
-	path = src/main/resources/static
-	url = https://github.com/kartoffelquadrat/LobbyServiceWebInterface.git
